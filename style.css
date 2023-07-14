@@ -39,6 +39,10 @@
     header .hamb{
       display: none;
     }
+
+    .close{
+      display: none;
+    }
     
     header nav a {
       text-decoration: none;
@@ -341,6 +345,21 @@
       nav{
         display: none;
       }
+
+      
+
+      
+
+      .close-menu.visible{
+        /* display: none; */
+      }
+
+      .hamba, .close-menu{
+        display: block;
+
+
+      }
+
 
       nav1.visible{
         display: flex;
